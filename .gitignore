@@ -1,0 +1,22 @@
+# .gitignore
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+/__pycache__
+
+# Virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Data files that may be large or sensitive
+data/
+
+# Exclude specific files if needed
+utils.py
+public_tests.py
